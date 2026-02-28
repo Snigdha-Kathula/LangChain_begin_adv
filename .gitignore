@@ -1,0 +1,5 @@
+.venv/
+.env
+.cursorrules
+.cursorignore
+.DS_Store

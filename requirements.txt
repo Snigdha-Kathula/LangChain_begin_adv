@@ -1,0 +1,13 @@
+# LangChain + Google Gemini
+langchain>=1.2.0
+langchain-google-genai>=4.0.0
+langchain-community>=0.4.0
+langchain-core>=1.2.0
+langchain-text-splitters>=1.0.0
+
+# Env and RAG
+python-dotenv>=1.0.0
+docarray>=0.40.0
+
+# For 4_rag_metadata.py and persistent RAG (Chroma); use Python 3.12/3.13 (ChromaDB fails on 3.14)
+langchain-chroma>=1.0.0
